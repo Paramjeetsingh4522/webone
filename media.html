@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        .container{
+            width: 100vw;
+            height: 20vh;
+            }
+
+            .left{
+                width: 50vw;
+               /* height: 10vh;*/
+               /* background-color: blueviolet;*/
+            }
+            .right{
+                width: 50vw;
+               /* height: 10vh;*/
+               /* background-color: palevioletred;*/
+                top: 0vh;
+                right: 0vw;
+                position: absolute;
+            }
+              
+            @media  screen and(max-width:480px)and(orientation:portrait) {
+                .left{
+                    width: 100vw;
+                    background-color: blueviolet;
+                }
+                .right{
+                    width: 10vw;
+                    position: static;
+                    background-color: aliceblue;
+                }
+                
+            } @media  screen and(max-width:480px)and(orientation:landscape) {
+                .left{
+                    width: 100vw;
+                    background-color: rgb(43, 137, 226);
+                }
+                .right{
+                    width: 10vw;
+                    position: static;
+                    background-color: rgb(121, 4, 4);
+
+
+           /* @media screen and (
+                min-width:480px
+            ) 
+            {
+                body{background-color:red}
+            }
+             .container {
+                background-color: yellow;
+                margin-top: 20vh;
+                color: tomato;
+                font-size: 2em;
+                
+               
+                
+                
+            }
+                
+            }
+            p{
+                color: blueviolet;
+            }*/
+
+           
+           
+
+       
+
+    </style>  
+</head>
+<body>
+   
+
+    <div class="container">
+       <div class="left">Ducat Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus eveniet aliquid iste, quae perferendis architecto quam praesentium aspernatur obcaecati sequi <br>necessitatibus unde officiis! Ipsum magni error ex ipsam unde fugiat.</div>
+       <div class="right">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis excepturi maiores numquam voluptatum rem possimus. Quo deleniti numquam quam dignissimos excepturi<br> doloremque, tenetur illum quae tempore earum assumenda modi explicabo.</div>
+    </div>
+</body>
+</html>
